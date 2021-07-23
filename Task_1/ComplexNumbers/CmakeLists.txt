@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(ComplexNumbers)
+
+add_executable(ComplexNumbers src/main.cpp src/complex.h src/complex.cpp)
