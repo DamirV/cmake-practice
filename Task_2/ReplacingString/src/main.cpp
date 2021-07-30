@@ -15,6 +15,7 @@ void task2() {
 
 	if (result != NULL) {
 		std::cout << "output: " << result << std::endl;
+		free(result);
 	}
 	else {
 		std::cout << "the output array is missing" << std::endl;
