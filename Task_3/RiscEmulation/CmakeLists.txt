@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(RiscEmulation)
+
+add_executable(RiscEmulation src/risc-emulation.cpp src/risc.h src/risc.cpp)
