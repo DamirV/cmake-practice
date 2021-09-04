@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(MyCustomQueue)
+
+add_executable(MyCustomQueue src/pch.cpp src/pch.h stc/test.cpp src/CustomQueue.h)
