@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(CountingObjects)
+
+add_executable(CountingObjects src/ImageProcessing.cpp src/ImageProcessing.h stc/main.cpp)
